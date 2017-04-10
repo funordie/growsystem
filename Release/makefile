@@ -9,8 +9,14 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir.mk
+-include ssd1306/subdir.mk
 -include moisture/subdir.mk
 -include arduino/core/subdir.mk
+-include Libraries/Wire/utility/subdir.mk
+-include Libraries/Wire/subdir.mk
+-include Libraries/SPI/subdir.mk
+-include Libraries/Adafruit_SSD1306/subdir.mk
+-include Libraries/AdafruitGFXLibrarymaster/subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)

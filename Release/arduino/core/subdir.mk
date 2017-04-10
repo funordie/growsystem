@@ -97,154 +97,154 @@ CPP_DEPS += \
 arduino/CDC.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/CDC.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/HID.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HID.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/HardwareSerial.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/HardwareSerial0.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/HardwareSerial1.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/HardwareSerial2.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/HardwareSerial3.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/IPAddress.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/IPAddress.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/Print.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Print.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/Stream.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Stream.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/Tone.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Tone.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/USBCore.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/USBCore.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/WInterrupts.c.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WInterrupts.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/WMath.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WMath.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/WString.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/WString.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/abi.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/abi.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/hooks.c.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/hooks.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/main.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/main.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/new.cpp.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/new.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-g++" -c -g -Os -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/wiring.c.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/wiring_analog.c.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_analog.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/wiring_digital.c.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_digital.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
@@ -258,14 +258,14 @@ arduino/wiring_pulse.S.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/core
 arduino/wiring_pulse.c.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_pulse.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 
 arduino/wiring_shift.c.o: /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/wiring_shift.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
+	"/home/ipaev/arduino-1.6.5-r5/hardware/tools/avr/bin/avr-gcc" -c -g -Os -ffunction-sections -fdata-sections -MMD -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10605 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR     -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard" -I"/home/ipaev/source/GrowinSystem/moisture" -I"/home/ipaev/arduino-1.6.5-r5/libraries/Adafruit_SSD1306" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/SPI" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire" -I"/home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/libraries/Wire/utility" -I"/home/ipaev/arduino-1.6.5-r5/libraries/AdafruitGFXLibrarymaster" -I"/home/ipaev/source/GrowinSystem/ssd1306" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"   -Wall
 	@echo 'Finished building: $<'
 	@echo ' '
 

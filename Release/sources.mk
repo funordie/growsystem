@@ -37,7 +37,13 @@ CPP_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+ssd1306 \
 moisture \
 arduino/core \
+Libraries/Wire/utility \
+Libraries/Wire \
+Libraries/SPI \
+Libraries/Adafruit_SSD1306 \
+Libraries/AdafruitGFXLibrarymaster \
 . \
 

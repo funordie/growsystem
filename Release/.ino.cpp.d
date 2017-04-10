@@ -11,7 +11,7 @@
  /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Arduino.h \
  /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard/pins_arduino.h \
  /home/ipaev/source/GrowinSystem/moisture/moisture.hpp \
- ../GrowinSystem.ino
+ /home/ipaev/source/GrowinSystem/ssd1306/ssd1306.hpp ../GrowinSystem.ino
 
 /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/cores/arduino/Arduino.h:
 
@@ -36,5 +36,7 @@
 /home/ipaev/arduino-1.6.5-r5/hardware/arduino/avr/variants/standard/pins_arduino.h:
 
 /home/ipaev/source/GrowinSystem/moisture/moisture.hpp:
+
+/home/ipaev/source/GrowinSystem/ssd1306/ssd1306.hpp:
 
 ../GrowinSystem.ino:
