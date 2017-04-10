@@ -28,6 +28,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/Libraries/Wire/utility}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/Libraries/AdafruitGFXLibrarymaster}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/ssd1306}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/demo}&quot;"/>
 								</option>
 								<inputType id="it.baeyens.arduino.compiler.cpp.sketch.input.5070664" name="CPP source files" superClass="it.baeyens.arduino.compiler.cpp.sketch.input"/>
 							</tool>
@@ -42,6 +43,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/Libraries/Wire/utility}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/Libraries/AdafruitGFXLibrarymaster}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/ssd1306}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/GrowinSystem/demo}&quot;"/>
 								</option>
 								<inputType id="it.baeyens.arduino.compiler.c.sketch.input.1114218050" name="C Source Files" superClass="it.baeyens.arduino.compiler.c.sketch.input"/>
 							</tool>

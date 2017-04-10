@@ -39,6 +39,7 @@ CPP_DEPS :=
 SUBDIRS := \
 ssd1306 \
 moisture \
+demo \
 arduino/core \
 Libraries/Wire/utility \
 Libraries/Wire \

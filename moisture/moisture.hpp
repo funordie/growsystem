@@ -28,6 +28,13 @@ typedef enum{
     MST_INV,
 }moisture_state;
 
+typedef struct {
+    moisture_state idx;
+    String str;
+}moisture_str_type;
+
+String get_moisture_string(moisture_state state);
+
 class Moisture {
 public:
     void Update();

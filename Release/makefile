@@ -11,6 +11,7 @@ RM := rm -rf
 -include subdir.mk
 -include ssd1306/subdir.mk
 -include moisture/subdir.mk
+-include demo/subdir.mk
 -include arduino/core/subdir.mk
 -include Libraries/Wire/utility/subdir.mk
 -include Libraries/Wire/subdir.mk
