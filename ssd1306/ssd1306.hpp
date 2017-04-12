@@ -52,9 +52,7 @@ static const unsigned char PROGMEM logo16_glcd_bmp[] =
 class Display : public Adafruit_SSD1306{
 public:
     Display();
-    void Demo();
-    void Init();
-    void ShowValue(uint16_t val);
+    void PrintInLine(uint8_t line, uint8_t size, char * str);
 private:
 //    Adafruit_SSD1306 m_display;
 };

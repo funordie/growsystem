@@ -11,11 +11,14 @@ RM := rm -rf
 -include subdir.mk
 -include ssd1306/subdir.mk
 -include moisture/subdir.mk
+-include dht11/subdir.mk
 -include demo/subdir.mk
 -include arduino/core/subdir.mk
+-include Libraries/idDHT11/subdir.mk
 -include Libraries/Wire/utility/subdir.mk
 -include Libraries/Wire/subdir.mk
 -include Libraries/SPI/subdir.mk
+-include Libraries/OneWire/subdir.mk
 -include Libraries/Adafruit_SSD1306/subdir.mk
 -include Libraries/AdafruitGFXLibrarymaster/subdir.mk
 -include objects.mk

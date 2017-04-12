@@ -39,11 +39,14 @@ CPP_DEPS :=
 SUBDIRS := \
 ssd1306 \
 moisture \
+dht11 \
 demo \
 arduino/core \
+Libraries/idDHT11 \
 Libraries/Wire/utility \
 Libraries/Wire \
 Libraries/SPI \
+Libraries/OneWire \
 Libraries/Adafruit_SSD1306 \
 Libraries/AdafruitGFXLibrarymaster \
 . \

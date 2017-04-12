@@ -19,7 +19,7 @@
 #define MST_LED_HI   8
 #define MST_LED_LO   10
 
-#define ADC_MAX 1024    /*10 bit ADC*/
+#define ADC_MAX 1023    /*10 bit ADC*/
 
 typedef enum{
     MST_OK,
