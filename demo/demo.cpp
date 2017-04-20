@@ -9,19 +9,17 @@
 
 Moisture mst;
 
-void set_moisture_led(const uint16_t moisture) {
+moisture_state calc_moisture_state(const uint16_t moisture) {
 
-    if(moisture > MST_LVL_LO && moisture < MST_LVL_HI) {
-        //moisture OK
-        set_moisture_led(MST_OK);
-    } else if(moisture < MST_LVL_LO){
-        set_moisture_led(MST_LO);
-    }
-    else {
-        set_moisture_led(MST_HI);
-    }
+    if(moisture > MST_LVL_LO && moisture < MST_LVL_HI) return MST_OK;
+    else if(moisture < MST_LVL_LO) return MST_LO;
+    else return MST_HI;
+}
 
-    moisture_state state;
+void process_moisture_demo(const uint16_t moisture) {
+
+    moisture_state state = calc_moisture_state(moisture);
+
     Serial.println(get_moisture_string(state));
 
     if(state == MST_OK) {
@@ -43,6 +41,11 @@ void set_moisture_led(const uint16_t moisture) {
     }
 }
 
+void demo_setup() {
+    pinMode(MST_LED_HI, OUTPUT);
+    pinMode(MST_LED_LO, OUTPUT);
+}
+
 void demo_moisture(Display * dsp) {
 
     mst.Update();
@@ -53,7 +56,7 @@ void demo_moisture(Display * dsp) {
     Serial.print(str);
     dsp->PrintInLine(0, 1, str);
 
-    set_moisture_led(moisture);
+    process_moisture_demo(moisture);
 }
 
 #define DHT11_PIN 11
@@ -78,5 +81,3 @@ void demo_dht11(Display *dsp){
         Serial.print(str);
     }
 }
-
-

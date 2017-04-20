@@ -5,17 +5,27 @@
 
 Display dsp;
 
+#define DEMO
+
 void setup() {
     Serial.begin(9600);
 
     dsp.begin();
     dsp.clearDisplay();
+
+#ifdef DEMO
+    demo_setup();
+#else
+#endif
 }
 
 void loop() {
     Serial.println("\nLoop Start\n    ");
+
+#ifdef DEMO
     demo_moisture(&dsp);
     demo_dht11(&dsp);
-
+#else
+#endif
     delay(1000);
 }

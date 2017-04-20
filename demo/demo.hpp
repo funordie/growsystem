@@ -13,6 +13,7 @@
 #include <dht11.hpp>
 
 void demo_moisture(Display * dsp);
+void demo_setup(void);
 void demo_dht11(Display * dsp);
 
 #endif /* DEMO_DEMO_HPP_ */
