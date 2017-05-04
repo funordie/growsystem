@@ -10,6 +10,8 @@ Display dsp;
 void setup() {
     Serial.begin(9600);
 
+    Serial.println("\nSetup Start\n    ");
+
     dsp.begin();
     dsp.clearDisplay();
 
@@ -27,5 +29,5 @@ void loop() {
     demo_dht11(&dsp);
 #else
 #endif
-    delay(1000);
+    delay(10*1000UL);
 }

@@ -67,11 +67,11 @@ void demo_dht11(Display *dsp){
     if(res == DHTLIB_OK) {
         //process read data
         char str[20];
-        sprintf( str, "humidity:%u\n", dht.GetHumidity());
+        sprintf( str, "humidity:%d\n", dht.GetHumidity());
         Serial.print(str);
         dsp->PrintInLine(1, 1, str);
 
-        sprintf( str, "temperature:%u\n", dht.GetTemperature());
+        sprintf( str, "temperature:%d\n", dht.GetTemperature());
         Serial.print(str);
         dsp->PrintInLine(2, 1, str);
     }
@@ -79,5 +79,7 @@ void demo_dht11(Display *dsp){
         char str[20];
         sprintf( str, "dht11 error:%u\n", res);
         Serial.print(str);
+        dsp->PrintInLine(1, 1, str);
+        dsp->PrintInLine(2, 1, str);
     }
 }
